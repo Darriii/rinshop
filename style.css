@@ -10,7 +10,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 48px 105px auto 310px;
+  grid-template-rows: 48px 105px 643px auto;
 }
 
 .header {
@@ -52,6 +52,10 @@ body {
   border-top: 4px solid #252323;
   background-color: #a1a1a1;
   text-align:center;
+
+  background-image: url(sales.png);
+  background-position: center;
+  background-repeat: no-repeat;
 
 }
 
