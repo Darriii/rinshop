@@ -7,3 +7,7 @@
   color: #FFFFFF;
   font-size: 24px;
 }
+
+.menu:hover{
+	background-color: #A1A1A1;
+}
