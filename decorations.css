@@ -7,3 +7,15 @@
   color: #FFFFFF;
   font-size: 24px;
 }
+
+a {
+	text-decoration: none;
+}
+
+a.menu{
+  color: #252323;
+}
+
+a.menu:hover{
+	color: #A0A69F;
+}
