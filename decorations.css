@@ -19,3 +19,12 @@ a.menu{
 a.menu:hover{
 	color: #A0A69F;
 }
+
+.tovar-title{
+	font-size: 18px;
+}
+
+.tovar-price{
+	font-size: 24px;
+	font-weight: 900;
+}

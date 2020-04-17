@@ -13,6 +13,12 @@ body {
   grid-template-rows: 48px 105px 643px auto;
 }
 
+.container-catalog {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 48px 105px 1266px auto;
+}
+
 .header {
  grid-column: 1/-1;
  text-align: center;
@@ -33,7 +39,7 @@ body {
   height: 38px;
   text-align: center;
   font-size: 24px;
-  border: 0px;
+  
   padding-top: 5px;
 }
 
@@ -51,13 +57,148 @@ body {
   grid-column: 1/-1;
   border-top: 4px solid #252323;
   background-color: #a1a1a1;
-  text-align:center;
 
   background-image: url(sales.png);
   background-position: center;
   background-repeat: no-repeat;
 
 }
+
+.content-catalog{
+	grid-column:1/-1;
+	border-top: 4px solid #252323;
+	
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 625px 641px;
+	
+}
+
+.necklace{
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: 61px 416px;
+		background-color: #E7ECFF;
+}
+
+.nametovar{
+	grid-column: 3/5;
+	height: 38px;
+	text-align: center;
+	font-size: 24px;
+	border: 5px solid #252323;
+	margin-top: 74px;
+	
+}
+
+.rectangletovar{
+	grid-column: 3/11;
+	height: 416px;
+	font-size: 24px;
+	border: 8px solid #252323;
+	
+	margin-top: 100px;
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 269px 40px 61px;
+	
+}
+
+.firsttovar{
+	grid-column: 1/2;
+	grid-row: 1/2;
+	
+	background-image: url(tovar1.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-top: 24px;
+	margin-left: 23px;
+	margin-right: 14px;
+}
+
+.secondtovar{
+	grid-column: 2/3;
+	grid-row: 1/2;
+	
+	background-image: url(tovar1.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-top: 24px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.thirdtovar{
+	grid-column: 3/-1;
+	grid-row: 1/2;
+	
+	background-image: url(tovar1.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-top: 24px;
+	margin-left: 14px;
+	margin-right: 23px;
+}
+
+.titlefirst{
+	grid-column: 1/2;
+	grid-row: 2/3;
+	
+	margin-top: 15px;
+	margin-left: 31px;
+	text-align: left;
+}
+
+.titlesecond{
+	grid-column: 2/3;
+	grid-row: 2/3;
+	
+	margin-top: 15px;
+	margin-left: 23px;
+	text-align: left;
+}
+
+.titlethird{
+	grid-column: 3/-1;
+	grid-row: 2/3;
+	
+	margin-top: 15px;
+	margin-left: 22px;
+	text-align: left;
+}
+
+.pricefirst{
+	grid-column: 1/2;
+	grid-row: 3/-1;
+	
+	margin-left: 31px;
+	text-align: left;
+}
+
+.pricesecond{
+	grid-column: 2/3;
+	grid-row: 3/-1;
+	
+	margin-left: 23px;
+	text-align: left;
+}
+
+.pricethird{
+	grid-column: 3/-1;
+	grid-row: 3/-1;
+	
+	margin-left: 22px;
+	text-align: left;
+}
+
+.rings{
+	display: grid;
+	grid-template-columns:repeat(12, 1fr);
+	grid-template-rows: 61px 412px;
+	background-color: #ada69f;
+}
+
 
 .footer {
     grid-column: 1/-1;
@@ -81,3 +222,4 @@ grid-column: 3/-1;
 .footer-year{
 grid-column: 3/-1;
 }
+
